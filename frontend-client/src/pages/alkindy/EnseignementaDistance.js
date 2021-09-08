@@ -5,7 +5,7 @@ import photo2 from "../../assets/img/vie-etudiant2.jpg"
 import NavBar from "components/layout/NavBar"
 import LinkDuo from "components/utils/LinkDuo"
 import ReactPlayer from 'react-player'
-import VideoEnseignementD from "pages/accueil/VideoEnseignementD"
+import VideoEnseignementD from "pages/alkindy/VideoEnseignementD"
 
 import MetaHelmet from "components/MetaHelmet"
 

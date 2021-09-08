@@ -5,7 +5,7 @@ import photo2 from "../../assets/img/vie-etudiant2.jpg"
 import NavBar from "components/layout/NavBar"
 import LinkDuo from "components/utils/LinkDuo"
 import ReactPlayer from 'react-player'
-import Clubgalleries from "pages/accueil/Clubgalleries"
+import Clubgalleries from "pages/alkindy/Clubgalleries"
 
 
 import MetaHelmet from "components/MetaHelmet"

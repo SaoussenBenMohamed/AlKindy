@@ -5,10 +5,10 @@ import photo2 from "../../assets/img/vie-etudiant2.jpg"
 import NavBar from "components/layout/NavBar"
 import LinkDuo from "components/utils/LinkDuo"
 import ReactPlayer from 'react-player'
-import VideoHonoris from "pages/accueil/VideoHonoris"
+import VideoHonoris from "pages/alkindy/VideoHonoris"
 
 import MetaHelmet from "components/MetaHelmet"
-import ActEtEven from "pages/accueil/ActEtEven"
+import ActEtEven from "pages/alkindy/ActEtEven"
 import Testimonials from "components/home/Testimonials"
 export default class Actualites extends Component {
 

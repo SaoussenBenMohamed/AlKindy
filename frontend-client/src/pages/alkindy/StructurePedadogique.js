@@ -43,7 +43,7 @@ export default class StructurePedadogique extends Component {
                 </Row>
 </div>
 <br />
-                    <br/>>
+                    <br/>
 
         <p style={{fontWeight: 'bold'}}> Dans notre établissement, nous suivons le programme éducatif dicté par le ministère tunisien de l'enfance.</p>
          <p>Nous nous inspirons aussi des modèles des grandes institutions de la petite enfance dans le monde. Notre objectif est d'aider chaque enfant à devenir autonome et s'approprier des connaissances et des compétences. Le jeu est considéré comme un moyen privilégié permettant à l'enfant de s'épanouir. Chaque enfant étant unique, nous respectons son rythme et ses besoins. L'enfant ne doit jamais subir le poids de l'apprentissage. L'acquisition des connaissances se fera naturellement à travers le jeu, avec plaisir et dans la bonne humeur. Nous travaillons avec des thèmes touchant la vie quotidienne des enfants. Il en va de même pour l'acquisition des concepts mathématiques, de l'écriture et la lecture.</p>

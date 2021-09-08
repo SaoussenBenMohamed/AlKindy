@@ -71,21 +71,21 @@ const ContactEtInfo = React.lazy(() => import("./pages/admission/ContactEtInfo")
 const Procedure = React.lazy(() => import("./pages/admission/Procedure"))
 const Search = React.lazy(() => import("./pages/Search"))
 //Accueil
-const MotDeLaDirection =React.lazy(() => import("./pages/accueil/MotDeLaDirection"))
-const HonorisUnitedUniversities =React.lazy(() => import("./pages/accueil/HonorisUnitedUniversities"))
-const StructurePedadogique =React.lazy(() => import("./pages/accueil/StructurePedadogique"))
-const UnitePedagogiques =React.lazy(() => import("./pages/accueil/UnitePedagogiques"))
+const MotDeLaDirection =React.lazy(() => import("./pages/alkindy/MotDeLaDirection"))
+const HonorisUnitedUniversities =React.lazy(() => import("./pages/alkindy/HonorisUnitedUniversities"))
+const StructurePedadogique =React.lazy(() => import("./pages/alkindy/StructurePedadogique"))
+const UnitePedagogiques =React.lazy(() => import("./pages/alkindy/UnitePedagogiques"))
 
-const ReglementInterieur =React.lazy(() => import("./pages/accueil/ReglementInterieur"))
-const GrilleTarifaire =React.lazy(() => import("./pages/accueil/GrilleTarifaire"))
+const ReglementInterieur =React.lazy(() => import("./pages/alkindy/ReglementInterieur"))
+const GrilleTarifaire =React.lazy(() => import("./pages/alkindy/GrilleTarifaire"))
 
-const ParentsProfesseurs =React.lazy(() => import("./pages/accueil/ParentsProfesseurs"))
+const ParentsProfesseurs =React.lazy(() => import("./pages/alkindy/ParentsProfesseurs"))
 
-const EnseignementaDistance =React.lazy(() => import("./pages/accueil/EnseignementaDistance"))
+const EnseignementaDistance =React.lazy(() => import("./pages/alkindy/EnseignementaDistance"))
 
-const Club =React.lazy(() => import("./pages/accueil/Club"))
+const Club =React.lazy(() => import("./pages/alkindy/Club"))
 
-const Actualites =React.lazy(() => import("./pages/accueil/Actualites"))
+const Actualites =React.lazy(() => import("./pages/alkindy/Actualites"))
 
 
 
