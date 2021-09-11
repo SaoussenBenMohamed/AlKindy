@@ -1,5 +1,4 @@
-import "react-owl-carousel/node_modules/owl.carousel/dist/assets/owl.carousel.css"
-import "react-owl-carousel/node_modules/owl.carousel/dist/assets/owl.theme.default.css"
+
 import React from "react"
 import { Row, Col } from "react-bootstrap"
 import OwlCarousel from "react-owl-carousel"
