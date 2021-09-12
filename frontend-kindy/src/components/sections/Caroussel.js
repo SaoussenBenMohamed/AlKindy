@@ -3,7 +3,8 @@ import ScrollAnimation from "react-animate-on-scroll"
 
 import OwlCarousel from "react-owl-carousel"
 import LinkDuo from "../utils/LinkDuo"
-
+import "react-owl-carousel/node_modules/owl.carousel/dist/assets/owl.carousel.css"
+import "react-owl-carousel/node_modules/owl.carousel/dist/assets/owl.theme.default.css"
 export default function Caroussel({ description, title, pressData }) {
   //Press loop start
   const Allpress = pressData.map((press, index) => (

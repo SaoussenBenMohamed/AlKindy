@@ -254,8 +254,9 @@ export default class NavMenu extends Component {
                                 <li className="menu-item">
                                   <LinkDuo to="/kindy/pages/ParentsProfesseurs">Parents-Professeurs</LinkDuo>
                                 </li>
-                               
-                                <li c lassName="menu-item">
+
+
+                                <li className="menu-item">
                                   <LinkDuo to="/kindy/pages/Actualites">Actualités et environnements</LinkDuo>
                                 </li>
                             
