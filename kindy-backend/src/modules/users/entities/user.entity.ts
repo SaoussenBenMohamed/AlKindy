@@ -1,5 +1,5 @@
 import { ClubEntity } from './../../clubs/entities/club.entity';
-import { RdiEntity } from './../../rdi/entities/rdi.entity';
+
 import { Entity, Column, BeforeInsert, ObjectIdColumn, Index, AfterLoad, BeforeUpdate } from 'typeorm';
 import { Exclude, Expose, Transform } from 'class-transformer';
 import { ObjectID } from 'mongodb';

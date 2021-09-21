@@ -16,7 +16,7 @@ import { EventModule } from './modules/events/event.module';
 import { PressModule } from './modules/press/press.module';
 import { UserModule } from './modules/users/user.module';
 import { ClubModule } from './modules/clubs/club.module';
-import { RdiModule } from './modules/rdi/rdi.module';
+
 import { UnitModule } from './modules/unit/unit.module';
 
 @Module({
@@ -69,7 +69,7 @@ import { UnitModule } from './modules/unit/unit.module';
 
     UserModule,
     SliderModule,
-    RdiModule,
+   
     PressModule,
     ClubModule,
     PartnershipModule,

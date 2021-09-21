@@ -5,8 +5,8 @@ import { ObjectID } from 'mongodb';
 import { IUser } from '../../../modules/users/interfaces/user.interface';
 import { transformEntity } from '../../../shared/transformEntity.utlis';
 
-@Entity('rdi')
-export class RdiEntity {
+@Entity('MotDeLaDirection')
+export class MotDeLaDirectionEntity {
   @Transform(transformEntity)
   @ObjectIdColumn()
   _id: ObjectID;

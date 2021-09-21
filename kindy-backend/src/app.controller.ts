@@ -4,7 +4,7 @@ import { PressService } from './modules/press/press.service';
 import { EventService } from './modules/events/event.service';
 import { PartnershipService } from './modules/partnerships/partnership.service';
 import { UnitService } from './modules/unit/unit.service';
-import { RdiService } from './modules/rdi/rdi.service';
+
 import { Get, Controller, Query, Post, Body } from '@nestjs/common';
 import { ClubService } from './modules/clubs/club.service';
 import { UserService } from './modules/users/user.service';
@@ -15,7 +15,7 @@ import { ApiBody } from '@nestjs/swagger';
 export class AppController {
   constructor(
     private readonly clubService: ClubService,
-    private readonly rdiService: RdiService,
+    
     private readonly unitService: UnitService,
     private readonly partnershipService: PartnershipService,
     private readonly eventService: EventService,
@@ -27,8 +27,8 @@ export class AppController {
   async search(@Query() keyword): Promise<any> {
     let clubs = await this.clubService.search(keyword.keyword);
     clubs = this.appendUrl(clubs, '/vie-etudiante/vie-campus/clubs');
-    let rdis = await this.rdiService.search(keyword.keyword);
-    rdis = this.appendUrl(rdis, '/rdi/les-equipes-rdi');
+   
+   
     let units = await this.unitService.search(keyword.keyword);
     units = this.appendUrl(units, '/formation/esprit-ingenieur/specialites-et-options');
     let partnerships = await this.partnershipService.search(keyword.keyword);
@@ -39,7 +39,7 @@ export class AppController {
     presses = this.appendUrl(presses, '/esprit/salle-de-presse');
     const result = Array.prototype.concat(
       await this.userService.populateUsers(clubs),
-      await this.userService.populateUsers(rdis),
+    
       await this.userService.populateUsers(units),
       await this.userService.populateUsers(partnerships),
       await this.userService.populateUsers(events),

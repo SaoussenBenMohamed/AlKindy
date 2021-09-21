@@ -1,5 +1,5 @@
 import { ClubEntity } from './../../clubs/entities/club.entity';
-import { RdiEntity } from './../../rdi/entities/rdi.entity';
+
 import { ObjectID } from 'mongodb';
 
 export interface IUser {

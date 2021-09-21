@@ -67,10 +67,11 @@ export default class Actualites extends Component {
 
 
 
-        
+      
                    
            
           </div>
+          
         </section>
       </>
     )
