@@ -23,7 +23,7 @@ const SingleBlog = React.lazy(() => import("./pages/SingleBlog"))
 
 
 
-//Accueil
+//alkindy
 const MotDeLaDirection =React.lazy(() => import("./pages/kindy/MotDeLaDirection"))
 const HonorisUnitedUniversities =React.lazy(() => import("./pages/kindy/HonorisUnitedUniversities"))
 const StructurePedadogique =React.lazy(() => import("./pages/kindy/StructurePedadogique"))
